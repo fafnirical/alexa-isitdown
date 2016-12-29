@@ -18,7 +18,7 @@ Skill.launch((request, response) => {
     .send();
 });
 
-Skill.intent('isItDown',
+Skill.intent('IsItDown',
   {
     slots: {
       DOMAIN: 'DOMAINS',
